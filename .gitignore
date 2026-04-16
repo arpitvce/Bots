@@ -5,4 +5,5 @@ __pycache__/
 *.py[cod]
 .env
 C:\\Users\\anarp\\edge-whatsapp-profile
-
+profile/
+edge-whatsapp-profile/

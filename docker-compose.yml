@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: whatsapp_bot
+    ports:
+     - "8000:8000"
+    volumes:
+     - ./profile:/app/profile
+    restart: unless-stopped
+
+          
